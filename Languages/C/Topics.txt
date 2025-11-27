@@ -1,0 +1,40 @@
+
+# Topics to cover
+1. scanf() & printf() usecase
+2. C Keywords
+3. Pre-Processor Directives
+4. Functions - static, arguments, recursion
+5. Pointers - null, pointer to pointer
+6. Array
+7. Strings
+8. Structures 
+9. Interrupts
+10. Memory Allocation
+11. File I/O
+12. Typecasting
+
+# Commonly used methods
+1. Search Algorithm  - Binary, Linear, etc.
+2. Sorting Algorithm - Bubble, Selection, Insertion, Merge, Quick, etc.
+
+
+# Commonly used libraries & functions
+1.  stdio.h -->	    Standard Input/Output (e.g., printf, scanf)
+2.  stdlib.h -->	Memory allocation, conversions, exit (e.g., malloc, free, atoi)
+3.  string.h -->	String handling (e.g., strcpy, strlen, strcmp)
+4.  math.h -->	    Math functions (e.g., sqrt, pow, sin)
+5.  ctype.h -->	    Character type checks (e.g., isalpha, isdigit, toupper)
+6.  stdbool.h -->	Boolean support (true, false, bool keyword)
+7.  time.h -->	    Time and date operations (time, clock, difftime)
+8.  limits.h -->	Constants for integer limits (INT_MAX, CHAR_MIN)
+9.  float.h --> 	Constants for float/double limits (FLT_MAX)
+10. assert.h -->	Debugging, program assertions (assert(expr))
+11. stdint.h -->    Using unsigned integer datatypes (e.g. uint8_t, uint64_t)
+
+# Questions
+1. Difference in Arguments & Parameters
+2. Print hex value of decimal variabke using pointer
+3. Difference between call by value & call by reference
+4. what is pointer to the pointer
+5. How to read a value from memory address
+6. Difference between stack and heap
