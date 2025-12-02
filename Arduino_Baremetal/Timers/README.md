@@ -59,6 +59,37 @@
 
 ---
 
+# AVR ATmega328P — Timer Prescaler Table
+
+| Timer | Prescaler Setting | CS Bits | Division Factor | Description |
+|-------|-----------------|---------|----------------|-------------|
+| Timer0 | No clock | 0 0 0 | - | Timer stopped |
+| Timer0 | clk/1 | 0 0 1 | 1 | No prescaling |
+| Timer0 | clk/8 | 0 1 0 | 8 | Divide system clock by 8 |
+| Timer0 | clk/64 | 0 1 1 | 64 | Divide system clock by 64 |
+| Timer0 | clk/256 | 1 0 0 | 256 | Divide system clock by 256 |
+| Timer0 | clk/1024 | 1 0 1 | 1024 | Divide system clock by 1024 |
+| Timer0 | External F, falling edge | 1 1 0 | - | Clock from external pin (falling edge) |
+| Timer0 | External F, rising edge | 1 1 1 | - | Clock from external pin (rising edge) |
+| Timer1 | No clock | 0 0 0 0 | - | Timer stopped |
+| Timer1 | clk/1 | 0 0 0 1 | 1 | No prescaling |
+| Timer1 | clk/8 | 0 0 1 0 | 8 | Divide system clock by 8 |
+| Timer1 | clk/64 | 0 0 1 1 | 64 | Divide system clock by 64 |
+| Timer1 | clk/256 | 0 1 0 0 | 256 | Divide system clock by 256 |
+| Timer1 | clk/1024 | 0 1 0 1 | 1024 | Divide system clock by 1024 |
+| Timer1 | External F, falling edge | 0 1 1 0 | - | Clock from external pin (falling edge) |
+| Timer1 | External F, rising edge | 0 1 1 1 | - | Clock from external pin (rising edge) |
+| Timer2 | No clock | 0 0 0 | - | Timer stopped |
+| Timer2 | clk/1 | 0 0 1 | 1 | No prescaling |
+| Timer2 | clk/8 | 0 1 0 | 8 | Divide system clock by 8 |
+| Timer2 | clk/32 | 0 1 1 | 32 | Divide system clock by 32 |
+| Timer2 | clk/64 | 1 0 0 | 64 | Divide system clock by 64 |
+| Timer2 | clk/128 | 1 0 1 | 128 | Divide system clock by 128 |
+| Timer2 | clk/256 | 1 1 0 | 256 | Divide system clock by 256 |
+| Timer2 | clk/1024 | 1 1 1 | 1024 | Divide system clock by 1024 |
+
+---
+
 ## Quick Summary of PWM Outputs
 
 | Timer | PWM Pins | Mode Used |
